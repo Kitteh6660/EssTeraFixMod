@@ -1,6 +1,6 @@
 modLoader="javafml" #mandatory
 loaderVersion="[43,)"
-license="All rights reserved" # License Schmicense
+license="MIT" # License Schmicense
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 
 [[mods]]

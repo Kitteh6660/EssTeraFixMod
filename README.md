@@ -4,7 +4,7 @@ Fixes incompatibility between Essential and Teraphobia.
 
 ### What It Does
 
-This mod fixes a crash due to arbitrary incompatibility imposed by Teraphobia mod that made it so Essential would crash.
+This mod fixes a crash due to arbitrary incompatibility imposed by [Teraphobia](https://www.curseforge.com/minecraft/mc-mods/teraphobia/) mod that made it so [Essential](https://www.curseforge.com/minecraft/mc-mods/essential-mod) would crash.
 
 Note that if you plan to run the modpack Fear Nightfall, make sure to also modify the configuration for FancyMenu.
 

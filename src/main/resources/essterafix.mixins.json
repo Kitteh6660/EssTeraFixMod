@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "com.kittehmod.essterafix.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+        "ModInitMixin"
+	],
+	"minVersion": "0.8"
+}

@@ -1,0 +1,35 @@
+modLoader="javafml" #mandatory
+loaderVersion="[43,)"
+license="All rights reserved" # License Schmicense
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+
+[[mods]]
+    modId="essterafix"
+    version="${file.jarVersion}"
+    displayName="EssTeraFix"
+    # updateJSONURL=""
+    displayURL=""
+    logoFile="icon.png"
+    credits=""
+    authors="Kitteh6660"
+    description='''
+    A fix for incompatibility between Essential and Luna & Teraphobia. Great for adding Essence support to modpacks that rely on Teraphobia.'''
+
+[[dependencies.essterafix]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[43.2.0,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.essterafix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.19.3)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.essterafix]]
+    modId="teraphobia"
+    mandatory=true
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
